@@ -78,7 +78,7 @@ const load_tabla=()=>{
     contenLista+=`<tr>
                       <td>${elem+1}</td>
                       <td>${plato.nombre}</td>
-                      <td>S/${plato.precio.toFixed(2)}</td>
+                      <td>S/${parseFloat(plato.precio).toFixed(2)}</td>
                       <td>${buscar_tipo.nombreTipo}</td>
                       <td>${buscar_categoria.nombreCategoria}</td>
                   </tr>
